@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Guessing Game</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<script type="module">
+    import { html, render } from 'https://unpkg.com/htm/preact/standalone.module.js';
+    import { App } from "./js/index.js";
+
+    render(html`<${App} />`, document.body);
+</script>
+</body>
+</html>
